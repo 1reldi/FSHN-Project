@@ -1,0 +1,46 @@
+<?xml version = "1.0"?>
+<?xml-stylesheet type="text/xsl" href="games.xsl"?>
+<games>
+<action> 
+	<entry name="Anti-Terror" img="downl/anti-terror.jpg" href="http://www.gametop.com/online/antiterror-force-recharged/game.swf"></entry> 
+	<entry name="Desert Storm" img="downl/desertstorm.jpg" href="http://www.gametop.com/online/desert-storm/game.swf"></entry> 
+	<entry name="Attact" img="downl/attack.jpg" href="http://www.gametop.com/online/attack/game.swf"></entry> 
+	<entry name="Mission Freedom" img="downl/missionfreedom.jpg" href="http://www.gametop.com/online/mission-freedom/game.swf"></entry> 
+	<entry name="Mech Combats" img="downl/mech-combat.jpg" href="http://www.gametop.com/online/mech-combats/game.swf"></entry> 
+</action>
+<fighting> 
+	<entry name="WW2 Tank" img="downl/ww2-tank.jpg" href="http://www.gametop.com/online/ww2-tank-rush/game.swf"></entry> 
+	<entry name="Zombie Rumble" img="downl/zombie.jpg" href="http://www.gametop.com/online/zombie-rumble/game.swf"></entry> 
+	<entry name="Treasure Keeper" img="downl/treasurekeep.jpg" href="http://www.gametop.com/online/treasure-keeper/game.swf"></entry> 
+	<entry name="Pirates" img="downl/pirates.jpg" href="http://www.gametop.com/online/pirates/game.swf"></entry> 
+	<entry name="Onslaught" img="downl/onslaught.jpg" href="http://www.gametop.com/online/onslaught/game.swf"></entry> 
+</fighting>
+<rpg> 
+	<entry name="Empire" img="downl/empire.jpg" href="http://www.gametop.com/online/pirates/game.swf"></entry> 
+	<entry name="Big Farm" img="downl/bigfarm.jpg" href="http://www.gametop.com/online/big-farm/game.swf"></entry> 
+	<entry name="Shadow Kings" img="downl/shadow.jpg" href="http://www.gametop.com/online/shadow-kings/game.swf"></entry> 
+	<entry name="Cursed Treasure" img="downl/curse.jpg" href="http://www.gametop.com/online/cursed-treasure-2/game.swf"></entry> 
+	<entry name="Fish Tales" img="downl/fshtale.jpg" href="http://www.gametop.com/online/fish-tales-2/game.swf"></entry> 
+</rpg>
+<racing>  
+	<entry name="Zombie Smash" img="downl/zombiesm.jpg" href="http://www.gametop.com/online/zombie-smash-racing/game.swf"></entry> 
+	<entry name="Coaster Racer" img="downl/coast.jpg" href="http://www.gametop.com/online/coaster-racer-3/game.swf"></entry> 
+	<entry name="Neptune Rover" img="downl/rover.jpg" href="http://www.gametop.com/online/neptune-rover/game.swf"></entry> 
+	<entry name="War Machine" img="downl/machine.jpg" href="http://www.gametop.com/online/warmachine/game.swf"></entry> 
+	<entry name="Desert Rider" img="downl/desert.jpg" href="http://www.gametop.com/online/desert-rider/game.swf"></entry> 
+</racing>
+<fps> 
+	<entry name="Dead Zed" img="downl/deadzed.jpg" href="http://www.gametop.com/online/dead-zed-2/game.swf"></entry> 
+	<entry name="Pacific War" img="downl/pacific.jpg" href="http://www.gametop.com/online/pacific-war/game.swf"></entry> 
+	<entry name="Gngsta War" img="downl/gangsta.jpg" href="http://www.gametop.com/online/gangsta-war/game.swf"></entry> 
+	<entry name="Holy War" img="downl/holy.jpg" href="http://www.gametop.com/online/holywar-invasion/game.swf"></entry> 
+	<entry name="Zenon" img="downl/zenon.jpg" href="http://www.gametop.com/online/zenon/game.swf"></entry> 
+</fps>
+<sports> 
+	<entry name="BMX Trials Pro" img="downl/bmx.jpg" href="http://www.gametop.com/online/bmx-trials-pro/game.swf"></entry> 
+	<entry name="Soccer World Cup" img="downl/soccer.jpg" href="http://www.gametop.com/online/soccer-world-cup/game.swf"></entry> 
+	<entry name="Pool" img="downl/pool.jpg" href="http://www.gametop.com/online/free-pool/game.swf"></entry> 
+	<entry name="Golf" img="downl/golf.jpg" href="http://www.gametop.com/online/golf-master-3d/game.swf"></entry> 
+	<entry name="Crazy Ping Pong" img="downl/ping" href="http://www.gametop.com/online/dabomb-pong/game.swf"></entry> 
+</sports>
+</games>

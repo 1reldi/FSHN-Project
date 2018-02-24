@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>To the MAX </title>
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <link rel="icon" href="style/m1.png" type="image/png">
+</head>
+<style>
+#anim1{
+	width: 132px;
+    height: 132px;
+    background-image: url("http://stud-proj.epoka.edu.al/~amata13/web15_project/style/anim1.png") no-repeat;
+    position: relative;
+	right:-30px;
+	display:block;
+	z-index:1;
+    -webkit-animation-name: anim; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    animation-name: anim;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes anim {
+    0%   {background-image: url("style/anime1.png");}
+    50%  {background-image: url("style/anime.png");}
+	100%  {background-image: url("style/anime1.png");}
+   
+}
+
+/* Standard syntax */
+@keyframes example {
+     0%   {background-image: url("http://stud-proj.epoka.edu.al/~amata13/web15_project/style/anim1.png");}
+    50%  {background-image: url("http://stud-proj.epoka.edu.al/~amata13/web15_project/style/anim11.png");}
+	100%  {background-image: url("http://stud-proj.epoka.edu.al/~amata13/web15_project/style/anim1.png");}
+}
+
+</style>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+	    <a href="index.html">
+        <img src="style/logo2.png"
+         onmouseover="this.src='style/logo_h.png'"
+         onmouseout="this.src='style/logo2.png'"/>
+        </a>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <li><a href="index.html">
+		  <img src="style/home.png" onmouseover="this.src='style/home_h.png'"
+									onmouseout="this.src='style/home.png'"/></a></li>
+          <li><a href="games.xml">
+		  <img src="style/game.png" onmouseover="this.src='style/game_h.png'"
+									onmouseout="this.src='style/game.png'"/></a></li>
+          <li><a href="rev.html">
+		  <img src="style/rev.png"  onmouseover="this.src='style/rev_h.png'"
+									onmouseout="this.src='style/rev.png'"/></a></li>
+          <li><a href="contact.html">
+		  <img src="style/contact.png" onmouseover="this.src='style/contact_h.png'"
+									   onmouseout="this.src='style/contact.png'"/></a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h3><b>Latest Games</b></h3>
+            <h4 style="color:red">New Game Releases</h4>
+            <p>2015 comes with new game productions from Top Notch Developers...<a href="rev.html">read more</a></p>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+            <h3>Genres</h3>
+            <ul>
+              <li><a href="games.xml">Action</a></li>
+              <li><a href="games.xml">Fighting</a></li>
+              <li><a href="games.xml">RPG Games</a></li>
+              <li><a href="games.xml">Racing</a></li>
+			  <li><a href="games.xml">FPS Games</a></li>
+			  <li><a href="games.xml">Sports</a></li>
+            </ul>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+        <div class="sidebar">
+          <div class="sidebar_top"></div>
+          <div class="sidebar_item">
+                <div id="anim1"></div>
+          </div>
+          <div class="sidebar_base"></div>
+        </div>
+      </div>
+      <div id="content">
+        <h1><strong>Contact Us</strong></h1>
+        <p><b>Suggest us a game, request a review, report a problem...</b></p>
+        <form action="http://stud-proj.epoka.edu.al/~amata13/web15_project/contactengine.php" method="post">
+          <div class="form_settings">
+            <p><span>Name</span><input class="contact" type="text" name="Name" value="" /></p>
+            <p><span>Email Address</span><input class="contact" type="text" name="Email" value="" /></p>
+            <p><span>Phone</span><input class="contact" type="text" name="Tel" value="" /></p>
+			<p><span>Message</span><textarea class="contact textarea" rows="8" cols="50" name="Message"></textarea></p>
+            <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="contact_submitted" value="Send" /></p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+      <p>Copyright &copy; Ardit Mata | Epoka University | Contact: amata13@epoka.edu.al</p>
+    </div>
+  </div>
+</body>
+</html>
